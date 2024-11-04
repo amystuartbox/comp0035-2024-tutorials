@@ -61,7 +61,6 @@ def view_outliers(df):
     plt.savefig(save_path)
     plt.show()
 
-
 def view_timeseries(df, date_column, value_column, filter_value=None):
     """Draw a timeseries plot of the DataFrame using the specified date and value columns.
 
